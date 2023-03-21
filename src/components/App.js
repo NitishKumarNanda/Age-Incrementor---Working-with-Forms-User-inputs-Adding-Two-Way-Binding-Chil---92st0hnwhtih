@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "../styles/App.css";
 import Child from "./Child";
 const App = () => {
-    const [age, setAge] = useState(18);
+    const [age, setAge] = useState(19);
     function incrementAge() {
       setAge(age + 1);
     }
